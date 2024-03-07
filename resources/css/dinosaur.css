@@ -10,12 +10,14 @@
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/gloriahallelujah/v21/LYjYdHv3kUk9BMV96EIswT9DIbW-MIS11zY.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Lato';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/lato/v24/S6uyw4BMUTPHjx4wWw.ttf) format('truetype');
 }
+
 /* ----------------------------------------------- */
 /* ----------------------------------------------- */
 html,
@@ -29,6 +31,7 @@ body {
     height: 100vh;
     overflow-x: hidden;
 }
+
 .wrapper {
     position: absolute;
     top: 50%;
@@ -37,6 +40,7 @@ body {
     -webkit-animation: position_wrapper 14s 0.1s ease-in-out infinite;
     animation: position_wrapper 14s 0.1s ease-in-out infinite;
 }
+
 .cry {
     position: absolute;
     top: 20%;
@@ -48,63 +52,92 @@ body {
     -webkit-animation: move_cry 7s 3s infinite;
     animation: move_cry 7s 3s infinite;
 }
+
+.freeze::after {
+    content: "Fange den Dino um zu starten";
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    border: 3px solid #94a9d0;
+    color: #718dc0;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 20px;
+    cursor: pointer;
+}
+
 .freeze:hover .cry {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .head {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .hand {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .hand .elbow {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .hand#second-hand {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .leg {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .leg .knee {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .leg .knee .foreleg {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .leg#second-leg {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .leg#second-leg .knee {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper .leg#second-leg .knee .foreleg {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .freeze:hover .wrapper ul.tail {
     -webkit-animation-play-state: paused;
     animation-play-state: paused;
 }
+
 .dinosaur {
     position: relative;
     width: 320px;
     height: 440px;
 }
+
 .dinosaur .body {
     position: absolute;
     top: 200px;
@@ -115,6 +148,7 @@ body {
     transform: rotate(5deg);
     border-radius: 30px;
 }
+
 .dinosaur .body .body-mask {
     z-index: 4;
     position: absolute;
@@ -126,6 +160,7 @@ body {
     transform: rotate(5deg);
     border-radius: 30px;
 }
+
 .dinosaur .body .body-mask::after {
     content: "";
     position: absolute;
@@ -136,6 +171,7 @@ body {
     background-color: #68c3a4;
     border-radius: 50%;
 }
+
 .dinosaur .body .body-mask ul {
     list-style: none;
     position: absolute;
@@ -145,6 +181,7 @@ body {
     height: 0;
     transform: rotate(-5deg);
 }
+
 .dinosaur .body .body-mask ul li {
     display: inline-block;
     width: 15px;
@@ -154,6 +191,7 @@ body {
     background-color: #68c3a4;
     transform: rotate(45deg);
 }
+
 .dinosaur .body .mark {
     z-index: 4;
     position: absolute;
@@ -164,6 +202,7 @@ body {
     border-radius: 60% 60% 25px 10px;
     background-color: #47b18d;
 }
+
 .dinosaur .body .mark::after {
     content: "";
     position: absolute;
@@ -174,6 +213,7 @@ body {
     border-radius: 25px 10px 60% 60%;
     background-color: #47b18d;
 }
+
 .dinosaur .body .head {
     z-index: 4;
     position: absolute;
@@ -186,6 +226,7 @@ body {
     background-color: #68c3a4;
     border-radius: 0 30px 30% 20%;
 }
+
 .dinosaur .body .head::before {
     content: "";
     position: absolute;
@@ -197,6 +238,7 @@ body {
     background-color: #388d70;
     border-radius: 200% 15px 0 40px;
 }
+
 .dinosaur .body .head ul {
     list-style: none;
     position: absolute;
@@ -206,6 +248,7 @@ body {
     height: 140px;
     transform: rotate(-10deg);
 }
+
 .dinosaur .body .head ul li {
     display: inline-block;
     width: 20px;
@@ -215,6 +258,7 @@ body {
     background-color: #68c3a4;
     transform: rotate(45deg);
 }
+
 .dinosaur .body .head .head-mask {
     position: absolute;
     bottom: -10px;
@@ -225,6 +269,7 @@ body {
     background-color: #dbe2ef;
     border-radius: 200% 15px 0 40px;
 }
+
 .dinosaur .body .head .head-mask::before {
     content: "";
     position: absolute;
@@ -235,6 +280,7 @@ body {
     transform: rotate(45deg);
     background-color: #dbe2ef;
 }
+
 .dinosaur .body .head .head-mask::after {
     content: "";
     position: absolute;
@@ -246,6 +292,7 @@ body {
     background-color: #68c3a4;
     border-radius: 0 25px 5px 30px;
 }
+
 .dinosaur .body .head .eye {
     position: absolute;
     top: 65px;
@@ -259,6 +306,7 @@ body {
     animation: blink_eye 6s infinite;
     overflow: hidden;
 }
+
 .dinosaur .body .head .eye::after {
     content: "";
     position: absolute;
@@ -269,6 +317,7 @@ body {
     border-radius: 50%;
     background-color: #333333;
 }
+
 .dinosaur .body .hand {
     z-index: 5;
     position: absolute;
@@ -281,6 +330,7 @@ body {
     transform: rotate(-30deg);
     border-radius: 30px;
 }
+
 .dinosaur .body .hand .elbow {
     position: absolute;
     top: 60px;
@@ -294,6 +344,7 @@ body {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
+
 .dinosaur .body .hand .elbow .forearm {
     position: absolute;
     bottom: 0;
@@ -307,6 +358,7 @@ body {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
+
 .dinosaur .body .hand .elbow .forearm::after {
     content: "";
     position: absolute;
@@ -317,6 +369,7 @@ body {
     border-radius: 50%;
     background-color: #dbe2ef;
 }
+
 .dinosaur .body .hand#second-hand {
     z-index: 2;
     top: 5px;
@@ -326,16 +379,19 @@ body {
     transform: rotate(-50deg);
     background-color: #388d70;
 }
+
 .dinosaur .body .hand#second-hand .elbow {
     width: 30px;
     height: 50px;
     background-color: #388d70;
 }
+
 .dinosaur .body .hand#second-hand .elbow .forearm {
     width: 20px;
     height: 45px;
     background-color: #388d70;
 }
+
 .dinosaur .body .leg {
     z-index: 5;
     position: absolute;
@@ -348,6 +404,7 @@ body {
     transform: rotate(200deg);
     border-radius: 15px;
 }
+
 .dinosaur .body .leg .knee {
     position: absolute;
     top: 10px;
@@ -361,6 +418,7 @@ body {
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
 }
+
 .dinosaur .body .leg .knee .foreleg {
     position: absolute;
     bottom: 0;
@@ -372,6 +430,7 @@ body {
     transform-origin: center left;
     transform: rotate(-50deg);
 }
+
 .dinosaur .body .leg .knee .foreleg::after {
     content: "";
     position: absolute;
@@ -382,6 +441,7 @@ body {
     border-top-left-radius: 60%;
     background-color: #dbe2ef;
 }
+
 .dinosaur .body .leg#second-leg {
     z-index: 2;
     bottom: 0;
@@ -391,12 +451,15 @@ body {
     transform: rotate(200deg);
     background-color: #388d70;
 }
+
 .dinosaur .body .leg#second-leg .knee {
     background-color: #388d70;
 }
+
 .dinosaur .body .leg#second-leg .knee .foreleg {
     background-color: #388d70;
 }
+
 .dinosaur .body ul.tail {
     list-style: none;
     position: absolute;
@@ -407,10 +470,12 @@ body {
     transform-origin: center left;
     transform: rotate(-200deg);
 }
+
 .dinosaur .body ul.tail li {
     position: absolute;
     background-color: #68c3a4;
 }
+
 .dinosaur .body ul.tail li::after {
     content: "";
     position: absolute;
@@ -421,6 +486,7 @@ body {
     background-color: #68c3a4;
     transform: skew(12deg) rotate(12deg);
 }
+
 .dinosaur .body ul.tail li::before {
     content: "";
     position: absolute;
@@ -431,36 +497,42 @@ body {
     background-color: #68c3a4;
     transform: skew(-12deg) rotate(-12deg);
 }
+
 .dinosaur .body ul.tail li:nth-child(1) {
     left: 0;
     bottom: 0;
     width: 25px;
     height: 50px;
 }
+
 .dinosaur .body ul.tail li:nth-child(2) {
     left: 25px;
     bottom: 5px;
     width: 25px;
     height: 40px;
 }
+
 .dinosaur .body ul.tail li:nth-child(3) {
     left: 50px;
     bottom: 10px;
     width: 25px;
     height: 30px;
 }
+
 .dinosaur .body ul.tail li:nth-child(4) {
     left: 75px;
     bottom: 15px;
     width: 25px;
     height: 20px;
 }
+
 .dinosaur .body ul.tail li:nth-child(5) {
     left: 100px;
     bottom: 20px;
     width: 25px;
     height: 10px;
 }
+
 .dinosaur .body ul.tail li:nth-child(6) {
     left: 125px;
     bottom: 13px;
@@ -471,60 +543,75 @@ body {
     border-width: 12px 0 12px 45px;
     border-color: transparent transparent transparent #68c3a4;
 }
+
 .dinosaur .body ul.tail li:nth-child(6)::after {
     content: none;
 }
+
 .dinosaur .body ul.tail li:nth-child(6)::before {
     content: none;
 }
+
 .dinosaur.run .body {
     transform: rotate(25deg);
 }
+
 .dinosaur.run .head {
     -webkit-animation: move_head 4s infinite;
     animation: move_head 4s infinite;
 }
+
 .dinosaur.run .hand {
     -webkit-animation: run_hand 2s infinite;
     animation: run_hand 2s infinite;
 }
+
 .dinosaur.run .hand#second-hand {
     -webkit-animation: run_hand-second 2s 0.5s infinite;
     animation: run_hand-second 2s 0.5s infinite;
 }
+
 .dinosaur.run .hand .elbow {
     -webkit-animation: run_elbow 2s infinite;
     animation: run_elbow 2s infinite;
 }
+
 .dinosaur.run .leg {
     -webkit-animation: run_leg 0.6s infinite;
     animation: run_leg 0.6s infinite;
 }
+
 .dinosaur.run .leg .knee {
     -webkit-animation: run_knee 0.6s infinite;
     animation: run_knee 0.6s infinite;
 }
+
 .dinosaur.run .leg .knee .foreleg {
     -webkit-animation: run_foreleg 0.6s infinite;
     animation: run_foreleg 0.6s infinite;
 }
+
 .dinosaur.run .leg#second-leg {
     bottom: 0;
     -webkit-animation: run_leg-second 0.6s 0.3s infinite;
     animation: run_leg-second 0.6s 0.3s infinite;
 }
+
 .dinosaur.run .leg#second-leg .knee {
     -webkit-animation: run_knee-second 0.6s 0.3s infinite;
     animation: run_knee-second 0.6s 0.3s infinite;
 }
+
 .dinosaur.run .leg#second-leg .knee .foreleg {
     -webkit-animation: run_foreleg-second 0.6s 0.3s infinite;
     animation: run_foreleg-second 0.6s 0.3s infinite;
 }
+
 .dinosaur.run ul.tail {
     -webkit-animation: move_tail 0.6s infinite;
     animation: move_tail 0.6s infinite;
 }
+
 /* ----------------------------------------------- */
 /*                    Keyframes                    */
 /* ----------------------------------------------- */
@@ -540,6 +627,7 @@ body {
         transform: rotate(-30deg);
     }
 }
+
 @keyframes run_hand {
     0% {
         transform: rotate(-30deg);
@@ -551,6 +639,7 @@ body {
         transform: rotate(-30deg);
     }
 }
+
 @-webkit-keyframes run_elbow {
     0% {
         transform: rotate(-90deg);
@@ -562,6 +651,7 @@ body {
         transform: rotate(-90deg);
     }
 }
+
 @keyframes run_elbow {
     0% {
         transform: rotate(-90deg);
@@ -573,6 +663,7 @@ body {
         transform: rotate(-90deg);
     }
 }
+
 @-webkit-keyframes run_hand-second {
     0% {
         transform: rotate(-50deg);
@@ -584,6 +675,7 @@ body {
         transform: rotate(-50deg);
     }
 }
+
 @keyframes run_hand-second {
     0% {
         transform: rotate(-50deg);
@@ -595,6 +687,7 @@ body {
         transform: rotate(-50deg);
     }
 }
+
 /* --- Run Leg --- */
 @-webkit-keyframes run_leg {
     0% {
@@ -607,6 +700,7 @@ body {
         transform: rotate(200deg);
     }
 }
+
 @keyframes run_leg {
     0% {
         transform: rotate(200deg);
@@ -618,6 +712,7 @@ body {
         transform: rotate(200deg);
     }
 }
+
 @-webkit-keyframes run_knee {
     0% {
         transform: rotate(-90deg);
@@ -629,6 +724,7 @@ body {
         transform: rotate(-90deg);
     }
 }
+
 @keyframes run_knee {
     0% {
         transform: rotate(-90deg);
@@ -640,6 +736,7 @@ body {
         transform: rotate(-90deg);
     }
 }
+
 @-webkit-keyframes run_foreleg {
     0% {
         transform: rotate(-50deg);
@@ -651,6 +748,7 @@ body {
         transform: rotate(-50deg);
     }
 }
+
 @keyframes run_foreleg {
     0% {
         transform: rotate(-50deg);
@@ -662,6 +760,7 @@ body {
         transform: rotate(-50deg);
     }
 }
+
 /* --- Run Second Leg --- */
 @-webkit-keyframes run_leg-second {
     0% {
@@ -674,6 +773,7 @@ body {
         transform: rotate(200deg);
     }
 }
+
 @keyframes run_leg-second {
     0% {
         transform: rotate(200deg);
@@ -685,6 +785,7 @@ body {
         transform: rotate(200deg);
     }
 }
+
 @-webkit-keyframes run_knee-second {
     0% {
         transform: rotate(-90deg);
@@ -696,6 +797,7 @@ body {
         transform: rotate(-90deg);
     }
 }
+
 @keyframes run_knee-second {
     0% {
         transform: rotate(-90deg);
@@ -707,6 +809,7 @@ body {
         transform: rotate(-90deg);
     }
 }
+
 @-webkit-keyframes run_foreleg-second {
     0% {
         transform: rotate(-50deg);
@@ -718,6 +821,7 @@ body {
         transform: rotate(-50deg);
     }
 }
+
 @keyframes run_foreleg-second {
     0% {
         transform: rotate(-50deg);
@@ -729,6 +833,7 @@ body {
         transform: rotate(-50deg);
     }
 }
+
 /* --- Tail Movement --- */
 @-webkit-keyframes move_tail {
     0% {
@@ -741,6 +846,7 @@ body {
         transform: rotate(-200deg);
     }
 }
+
 @keyframes move_tail {
     0% {
         transform: rotate(-200deg);
@@ -752,6 +858,7 @@ body {
         transform: rotate(-200deg);
     }
 }
+
 /* --- Head Movement --- */
 @-webkit-keyframes move_head {
     0% {
@@ -764,6 +871,7 @@ body {
         transform: rotate(-125deg);
     }
 }
+
 @keyframes move_head {
     0% {
         transform: rotate(-125deg);
@@ -775,6 +883,7 @@ body {
         transform: rotate(-125deg);
     }
 }
+
 /* --- Blink Eye --- */
 @-webkit-keyframes blink_eye {
     0% {
@@ -787,6 +896,7 @@ body {
         transform: rotate(-30deg) scaleX(1);
     }
 }
+
 @keyframes blink_eye {
     0% {
         transform: rotate(-30deg) scaleX(1);
@@ -798,6 +908,7 @@ body {
         transform: rotate(-30deg) scaleX(1);
     }
 }
+
 /* --- Appear Text --- */
 @-webkit-keyframes move_cry {
     0% {
@@ -813,6 +924,7 @@ body {
         opacity: 0;
     }
 }
+
 @keyframes move_cry {
     0% {
         transform: rotate(0deg);
@@ -827,6 +939,7 @@ body {
         opacity: 0;
     }
 }
+
 /* --- Wrapper Moving --- */
 @-webkit-keyframes position_wrapper {
     0% {
@@ -842,6 +955,7 @@ body {
         transform: translateY(-50%) translatex(calc(0vw - 400px)) scalex(-1);
     }
 }
+
 @keyframes position_wrapper {
     0% {
         transform: translateY(-50%) translatex(calc(0vw - 400px));
@@ -856,5 +970,6 @@ body {
         transform: translateY(-50%) translatex(calc(0vw - 400px)) scalex(-1);
     }
 }
+
 /* ----------------------------------------------- */
 /* ----------------------------------------------- */
