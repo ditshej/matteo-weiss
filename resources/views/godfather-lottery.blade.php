@@ -78,7 +78,7 @@
                                         </svg>
                                     </x-slot>
                                     <x-slot name="date">
-                                        ???? 23
+                                        12.März 23
                                     </x-slot>
                                     <h3 class="text-lg dark:text-white">Linien erraten</h3>
                                     Du konntest gegenüberliegenden Punkte mit je einer Linie verbinden.
@@ -99,7 +99,7 @@
                                         </svg>
                                     </x-slot>
                                     <x-slot name="date">
-                                        ???? 23
+                                        10.Februar 23
                                     </x-slot>
                                     <h3 class="text-lg dark:text-white">Rechnen</h3>
                                     Du konntest Zahlen eintragen.
