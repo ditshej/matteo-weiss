@@ -1,5 +1,6 @@
 <div class="relative group overflow-hidden p-8 rounded-xl
-        bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900">
+        bg-white border border-gray-200 dark:border-gray-800 dark:bg-gray-900
+        flex flex-col">
     <div aria-hidden="true"
          class="inset-0 absolute aspect-video border rounded-full
             -translate-y-1/2 group-hover:-translate-y-1/4 duration-300
@@ -14,11 +15,23 @@
                 before:shadow dark:before:shadow-gray-950">
             {{ $icon }}
         </div>
+        @if(isset($thumbnailUrl) && isset($imageUrl))
+            <div class="border border-{{ $color }}-500/10 flex absolute top-0 right-0
+                    *:relative *:size-20 *:m-auto size-24 rounded-lg
+                    dark:bg-gray-900 dark:border-white/15
+                    before:rounded-[7px] before:absolute before:inset-0 before:border-t before:border-white before:from-{{ $color }}-100
+                    dark:before:border-white/20 before:bg-gradient-to-b dark:before:from-white/10 dark:before:to-transparent
+                    before:shadow dark:before:shadow-gray-950">
+                <x-image-modal :thumbnailUrl="$thumbnailUrl" :imageUrl="$imageUrl"/>
+            </div>
+        @endif
 
         <div class="mt-6 pb-6 rounded-b-[--card-border-radius]">
             <p class="text-gray-700 dark:text-gray-300">{{ $slot }}</p>
         </div>
 
+    </div>
+    <div class="mt-auto relative">
         <div class="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
             <span role="alert" tabindex="0"
                   class="inline-flex items-center rounded-full p-2
