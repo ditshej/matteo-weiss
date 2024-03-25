@@ -77,6 +77,12 @@
                                                   stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                                         </svg>
                                     </x-slot>
+                                    <x-slot name="thumbnailUrl">
+                                        {{asset('images/lines-riddle.jpg')}}
+                                    </x-slot>
+                                    <x-slot name="imageUrl">
+                                        {{asset('images/lines-riddle.jpg')}}
+                                    </x-slot>
                                     <x-slot name="date">
                                         12.März 23
                                     </x-slot>

@@ -1,7 +1,10 @@
 <div x-data="{ open: false }">
-    <img src="{{ $thumbnailUrl }}" alt="Thumbnail"
-         @click="open = true"
-         class="cursor-pointer transform transition-transform duration-300 hover:scale-105 rounded-md"/>
+    <div class="w-full h-full overflow-hidden rounded-md cursor-pointer
+            flex items-center justify-center
+            transform transition-transform duration-300 hover:scale-105"
+         @click="open = true">
+        <img src="{{ $thumbnailUrl }}" alt="Thumbnail"/>
+    </div>
 
     <div
         x-show="open"
