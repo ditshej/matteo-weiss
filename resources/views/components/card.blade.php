@@ -31,10 +31,12 @@
         </div>
 
     </div>
-    <div class="mt-auto relative">
-        <div class="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
-            <span role="alert" tabindex="0"
-                  class="inline-flex items-center rounded-full p-2
+    @if(isset($date))
+        <div class="mt-auto relative">
+            <div class="flex gap-3 -mb-8 py-4 border-t border-gray-200 dark:border-gray-800">
+                @if(isset($date))
+                    <span role="alert" tabindex="0"
+                          class="inline-flex items-center rounded-full p-2
                     bg-{{ $color }}-500 text-white
                     group transition-all duration-500
                     focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:outline-none">
@@ -50,7 +52,9 @@
                         transition-all duration-500 group-hover:px-2 group-focus:px-2">
                     {{ $date }}
                 </span>
-            </span>
+                </span>
+                @endif
+            </div>
         </div>
-    </div>
+    @endif
 </div>

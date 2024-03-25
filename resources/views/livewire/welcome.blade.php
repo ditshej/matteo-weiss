@@ -1,7 +1,3 @@
-@assets
-    @vite(['resources/css/dinosaur.css'])
-@endassets
-
 <div class="freeze"><span class="cry">RoOar!</span>
     <div class="wrapper">
         <a href="/dashboard">
@@ -60,3 +56,7 @@
         </a>
     </div>
 </div>
+
+@assets
+@vite(['resources/css/dinosaur.css'])
+@endassets

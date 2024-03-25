@@ -23,4 +23,5 @@ Route::middleware([
     Route::get('dashboard', \App\Livewire\Dashboard::class)->name('dashboard');
     Route::get('godfather-lottery', \App\Livewire\GodfatherLottery::class)->name('godfather-lottery');
     Route::get('games', \App\Livewire\Games::class)->name('games');
+    Route::get('dino-memory', \App\Livewire\DinoMemory::class)->name('games.dino-memory');
 });
