@@ -1,96 +1,134 @@
-<div class="p-6 lg:p-8 bg-white dark:bg-gray-800 dark:bg-gradient-to-bl dark:from-gray-700/50 dark:via-transparent border-b border-gray-200 dark:border-gray-700">
-    <x-application-logo class="block h-12 w-auto" />
+<div
+    class="p-6 lg:p-8 bg-white dark:bg-gray-800 dark:bg-gradient-to-bl dark:from-gray-700/50 dark:via-transparent border-b border-gray-200 dark:border-gray-700">
+    <x-application-logo class="block h-12 w-auto"/>
 
     <h1 class="mt-8 text-2xl font-medium text-gray-900 dark:text-white">
-        Welcome to your Jetstream application!
+        Hallo Matteo
     </h1>
 
     <p class="mt-6 text-gray-500 dark:text-gray-400 leading-relaxed">
-        Laravel Jetstream provides a beautiful, robust starting point for your next Laravel application. Laravel is designed
-        to help you build your application using a development environment that is simple, powerful, and enjoyable. We believe
-        you should love expressing your creativity through programming, so we have spent time carefully crafting the Laravel
-        ecosystem to be a breath of fresh air. We hope you love it.
+        Das ist deine Götti-App. Hier wird dein Götti dir immer wieder neue Lösli, Games und andere spannende Dinge
+        zeigen.
     </p>
 </div>
 
-<div class="bg-gray-200 dark:bg-gray-800 bg-opacity-25 grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8 p-6 lg:p-8">
-    <div>
-        <div class="flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-6 h-6 stroke-gray-400">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" />
-            </svg>
-            <h2 class="ms-3 text-xl font-semibold text-gray-900 dark:text-white">
-                <a href="https://laravel.com/docs">Documentation</a>
-            </h2>
-        </div>
+<div class="bg-gray-200 dark:bg-gray-800 bg-opacity-25 p-6 lg:p-8 border-b border-gray-200 dark:border-gray-700">
 
-        <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-            Laravel has wonderful documentation covering every aspect of the framework. Whether you're new to the framework or have previous experience, we recommend reading all of the documentation from beginning to end.
-        </p>
-
-        <p class="mt-4 text-sm">
-            <a href="https://laravel.com/docs" class="inline-flex items-center font-semibold text-indigo-700 dark:text-indigo-300">
-                Explore the documentation
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="ms-1 w-5 h-5 fill-indigo-500 dark:fill-indigo-200">
-                    <path fill-rule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clip-rule="evenodd" />
+    <div class="grid grid-cols-12 gap-4">
+        <div class="col-span-12 sm:col-span-6">
+            <div class="p-4 relative bg-white dark:bg-gray-900 shadow-lg rounded-2xl">
+                <svg class="h-14 w-14  absolute bottom-4 right-3 text-green-400" fill="currentColor"
+                     viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
+                    <g fill-rule="evenodd" clip-rule="evenodd" stroke="none" stroke-width="1">
+                        <path
+                            d="M933.333 368.375C903.878 368.375 880 392.277 880 421.762C880 451.247 903.878 475.15 933.333 475.15C962.788 475.15 986.667 451.247 986.667 421.762C986.667 392.277 962.788 368.375 933.333 368.375Z"/>
+                        <path fill-rule="evenodd" clip-rule="evenodd"
+                              d="M0 213.55H517.333V632.308H624V0H1600V747.424H516.667L234.126 1633.06L337.468 1665.34L596.094 854.199H1920L1729.66 1789.36C1714.51 1865.08 1647.52 1920 1570.48 1920H162.318C72.8265 1920 0 1847.1 0 1757.52V213.55ZM773.333 421.762C773.333 333.307 844.968 261.6 933.333 261.6C1021.7 261.6 1093.33 333.307 1093.33 421.762C1093.33 510.217 1021.7 581.925 933.333 581.925C844.968 581.925 773.333 510.217 773.333 421.762ZM1200 368.375H1466.67V475.15H1200V368.375Z"/>
+                    </g>
                 </svg>
-            </a>
-        </p>
-    </div>
 
-    <div>
-        <div class="flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-6 h-6 stroke-gray-400">
-                <path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" />
-            </svg>
-            <h2 class="ms-3 text-xl font-semibold text-gray-900 dark:text-white">
-                <a href="https://laracasts.com">Laracasts</a>
-            </h2>
+                <div class="text-2xl text-gray-900 dark:text-gray-100 font-medium leading-8 mt-5">78.75</div>
+                <div class="text-sm text-gray-500 dark:text-gray-400">Franken auf der Götti-Bank</div>
+            </div>
         </div>
-
-        <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-            Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-        </p>
-
-        <p class="mt-4 text-sm">
-            <a href="https://laracasts.com" class="inline-flex items-center font-semibold text-indigo-700 dark:text-indigo-300">
-                Start watching Laracasts
-
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" class="ms-1 w-5 h-5 fill-indigo-500 dark:fill-indigo-200">
-                    <path fill-rule="evenodd" d="M5 10a.75.75 0 01.75-.75h6.638L10.23 7.29a.75.75 0 111.04-1.08l3.5 3.25a.75.75 0 010 1.08l-3.5 3.25a.75.75 0 11-1.04-1.08l2.158-1.96H5.75A.75.75 0 015 10z" clip-rule="evenodd" />
+        <div class="col-span-12 sm:col-span-6">
+            <div class="p-4 relative bg-white dark:bg-gray-900 shadow-lg  rounded-2xl">
+                <svg class="h-14 w-14  absolute bottom-4 right-3 text-blue-500 stroke-blue-500" fill="none"
+                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path
+                        d="M12 3V9M12 3L9.5 5.5M12 3L14.5 5.5M5.82333 9.00037C6.2383 9.36683 6.5 9.90285 6.5 10.5C6.5 11.6046 5.60457 12.5 4.5 12.5C3.90285 12.5 3.36683 12.2383 3.00037 11.8233M5.82333 9.00037C5.94144 9 6.06676 9 6.2 9H8M5.82333 9.00037C4.94852 9.00308 4.46895 9.02593 4.09202 9.21799C3.71569 9.40973 3.40973 9.71569 3.21799 10.092C3.02593 10.469 3.00308 10.9485 3.00037 11.8233M3.00037 11.8233C3 11.9414 3 12.0668 3 12.2V17.8C3 17.9332 3 18.0586 3.00037 18.1767M3.00037 18.1767C3.36683 17.7617 3.90285 17.5 4.5 17.5C5.60457 17.5 6.5 18.3954 6.5 19.5C6.5 20.0971 6.2383 20.6332 5.82333 20.9996M3.00037 18.1767C3.00308 19.0515 3.02593 19.5311 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.46895 20.9741 4.94852 20.9969 5.82333 20.9996M5.82333 20.9996C5.94144 21 6.06676 21 6.2 21H17.8C17.9332 21 18.0586 21 18.1767 20.9996M21 18.1771C20.6335 17.7619 20.0973 17.5 19.5 17.5C18.3954 17.5 17.5 18.3954 17.5 19.5C17.5 20.0971 17.7617 20.6332 18.1767 20.9996M21 18.1771C21.0004 18.0589 21 17.9334 21 17.8V12.2C21 12.0668 21 11.9414 20.9996 11.8233M21 18.1771C20.9973 19.0516 20.974 19.5311 20.782 19.908C20.5903 20.2843 20.2843 20.5903 19.908 20.782C19.5311 20.9741 19.0515 20.9969 18.1767 20.9996M20.9996 11.8233C20.6332 12.2383 20.0971 12.5 19.5 12.5C18.3954 12.5 17.5 11.6046 17.5 10.5C17.5 9.90285 17.7617 9.36683 18.1767 9.00037M20.9996 11.8233C20.9969 10.9485 20.9741 10.469 20.782 10.092C20.5903 9.71569 20.2843 9.40973 19.908 9.21799C19.5311 9.02593 19.0515 9.00308 18.1767 9.00037M18.1767 9.00037C18.0586 9 17.9332 9 17.8 9H16M14 15C14 16.1046 13.1046 17 12 17C10.8954 17 10 16.1046 10 15C10 13.8954 10.8954 13 12 13C13.1046 13 14 13.8954 14 15Z"
+                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
                 </svg>
-            </a>
-        </p>
+                <div class="text-2xl text-gray-900 dark:text-gray-100 font-medium leading-8 mt-5">10.-</div>
+                <div class="text-sm text-gray-500 dark:text-gray-400">Franken bereits einbezahlt im Jahr 2024</div>
+            </div>
+        </div>
     </div>
 
-    <div>
-        <div class="flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-6 h-6 stroke-gray-400">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 15.75l5.159-5.159a2.25 2.25 0 013.182 0l5.159 5.159m-1.5-1.5l1.409-1.409a2.25 2.25 0 013.182 0l2.909 2.909m-18 3.75h16.5a1.5 1.5 0 001.5-1.5V6a1.5 1.5 0 00-1.5-1.5H3.75A1.5 1.5 0 002.25 6v12a1.5 1.5 0 001.5 1.5zm10.5-11.25h.008v.008h-.008V8.25zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
-            </svg>
-            <h2 class="ms-3 text-xl font-semibold text-gray-900 dark:text-white">
-                <a href="https://tailwindcss.com/">Tailwind</a>
-            </h2>
-        </div>
 
-        <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-            Laravel Jetstream is built with Tailwind, an amazing utility first CSS framework that doesn't get in your way. You'll be amazed how easily you can build and maintain fresh, modern designs with this wonderful framework at your fingertips.
-        </p>
-    </div>
+</div>
+<div class="bg-gray-200 dark:bg-gray-800 bg-opacity-25 p-6 lg:p-8">
 
-    <div>
-        <div class="flex items-center">
-            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" class="w-6 h-6 stroke-gray-400">
-                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 10.5V6.75a4.5 4.5 0 10-9 0v3.75m-.75 11.25h10.5a2.25 2.25 0 002.25-2.25v-6.75a2.25 2.25 0 00-2.25-2.25H6.75a2.25 2.25 0 00-2.25 2.25v6.75a2.25 2.25 0 002.25 2.25z" />
-            </svg>
-            <h2 class="ms-3 text-xl font-semibold text-gray-900 dark:text-white">
-                Authentication
-            </h2>
-        </div>
+    <div class="grid gap-4 grid-cols-1 md:grid-cols-2">
 
-        <p class="mt-4 text-gray-500 dark:text-gray-400 text-sm leading-relaxed">
-            Authentication and registration views are included with Laravel Jetstream, as well as support for user email verification and resetting forgotten passwords. So, you're free to get started with what matters most: building your application.
-        </p>
+        <a href="{{ route('godfather-lottery') }}" wire:navigate
+           class="flex flex-col p-4 bg-white dark:bg-gray-900 shadow-md
+            hover:text-green-500 text-gray-500 dark:text-gray-400 hover:shodow-lg rounded-2xl
+            transition ease-in duration-500 transform hover:scale-105 cursor-pointer">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center mr-auto">
+                    <div class="-space-x-5 flex ">
+                        <div class="relative p-1 w-12 h-12 object-cover rounded-2xl
+                            border-2 border-gray-600 bg-gray-900">
+                            <svg class="stroke-indigo-500"
+                                 viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
+                                 stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                                <rect height="11.5" width="8.25" y="2.75" x="1.75"/>
+                                <path d="m10 3.75 4.25 2-4.25 7.5"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col ml-3 min-w-0">
+                        <div class="font-medium leading-none text-gray-900 dark:text-gray-100">Götti Lösli</div>
+                        <p class="text-sm text-gray-500 leading-none mt-1 truncate">
+                            Hier gehts zu einer Übersicht zu
+                            allen Götti Lösli
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-3 min-w-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </div>
+            </div>
+        </a>
+
+        <a href="{{ route('games') }}" wire:navigate
+           class="flex flex-col p-4 bg-white dark:bg-gray-900 shadow-md
+            hover:text-green-500 text-gray-500 dark:text-gray-400 hover:shodow-lg rounded-2xl
+            transition ease-in duration-500 transform hover:scale-105 cursor-pointer">
+            <div class="flex items-center justify-between">
+                <div class="flex items-center mr-auto">
+                    <div class="-space-x-5 flex ">
+                        <div class="relative p-1 w-12 h-12 object-cover rounded-2xl
+                            border-2 border-gray-600 bg-gray-900">
+                            <svg class="fill-indigo-500"
+                                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M15.4695 11.2929C15.0789 10.9024 14.4458 10.9024 14.0553 11.2929C13.6647 11.6834 13.6647 12.3166 14.0553 12.7071C14.4458 13.0976 15.0789 13.0976 15.4695 12.7071C15.86 12.3166 15.86 11.6834 15.4695 11.2929Z"/>
+                                <path
+                                    d="M16.1766 9.17156C16.5671 8.78103 17.2003 8.78103 17.5908 9.17156C17.9813 9.56208 17.9813 10.1952 17.5908 10.5858C17.2003 10.9763 16.5671 10.9763 16.1766 10.5858C15.7861 10.1952 15.7861 9.56208 16.1766 9.17156Z"/>
+                                <path
+                                    d="M19.7121 11.2929C19.3216 10.9024 18.6885 10.9024 18.2979 11.2929C17.9074 11.6834 17.9074 12.3166 18.2979 12.7071C18.6885 13.0976 19.3216 13.0976 19.7121 12.7071C20.1027 12.3166 20.1027 11.6834 19.7121 11.2929Z"/>
+                                <path
+                                    d="M16.1766 13.4142C16.5671 13.0237 17.2003 13.0237 17.5908 13.4142C17.9813 13.8048 17.9813 14.4379 17.5908 14.8284C17.2003 15.219 16.5671 15.219 16.1766 14.8284C15.7861 14.4379 15.7861 13.8048 16.1766 13.4142Z"/>
+                                <path d="M6 13H4V11H6V9H8V11H10V13H8V15H6V13Z"/>
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                      d="M7 5C3.13401 5 0 8.13401 0 12C0 15.866 3.13401 19 7 19H17C20.866 19 24 15.866 24 12C24 8.13401 20.866 5 17 5H7ZM17 7H7C4.23858 7 2 9.23858 2 12C2 14.7614 4.23858 17 7 17H17C19.7614 17 22 14.7614 22 12C22 9.23858 19.7614 7 17 7Z"/>
+                            </svg>
+                        </div>
+                    </div>
+
+                    <div class="flex flex-col ml-3 min-w-0">
+                        <div class="font-medium leading-none text-gray-900 dark:text-gray-100">Games</div>
+                        <p class="text-sm text-gray-500 leading-none mt-1 truncate">
+                            Hier gehts zu einer Übersicht zu allen Götti Lösli
+                        </p>
+                    </div>
+                </div>
+                <div class="flex flex-col ml-3 min-w-0">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24"
+                         stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                              d="M9 5l7 7-7 7"></path>
+                    </svg>
+                </div>
+            </div>
+        </a>
+
     </div>
 </div>
