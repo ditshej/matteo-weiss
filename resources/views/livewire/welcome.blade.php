@@ -1,17 +1,7 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Matteo</title>
-
-    <!-- Fonts -->
-
-    <!-- Styles -->
+@assets
     @vite(['resources/css/dinosaur.css'])
-</head>
-<body>
+@endassets
+
 <div class="freeze"><span class="cry">RoOar!</span>
     <div class="wrapper">
         <a href="/dashboard">
@@ -70,5 +60,3 @@
         </a>
     </div>
 </div>
-</body>
-</html>
