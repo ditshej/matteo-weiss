@@ -22,10 +22,7 @@ Route::middleware([
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
-    Route::get('/dashboard', function () {
-        return view('dashboard');
-    })->name('dashboard');
-    Route::get('/godfather-lottery', function () {
-        return view('godfather-lottery');
-    })->name('godfather-lottery');
+    Route::get('dashboard', \App\Livewire\Dashboard::class)->name('dashboard');
+    Route::get('godfather-lottery', \App\Livewire\GodfatherLottery::class)->name('godfather-lottery');
+    Route::get('games', \App\Livewire\Games::class)->name('games');
 });

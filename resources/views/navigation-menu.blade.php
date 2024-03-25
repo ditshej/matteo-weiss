@@ -18,6 +18,9 @@
                     <x-nav-link href="{{ route('godfather-lottery') }}" :active="request()->routeIs('godfather-lottery')">
                         {{ __('Götti Lösli') }}
                     </x-nav-link>
+                    <x-nav-link href="{{ route('games') }}" :active="request()->routeIs('games')">
+                        {{ __('Games') }}
+                    </x-nav-link>
                 </div>
             </div>
 
