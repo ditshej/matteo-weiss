@@ -7,44 +7,49 @@
     </h1>
 
     <p class="mt-6 text-gray-500 dark:text-gray-400 leading-relaxed">
-        Das ist deine Götti-App. Hier wird dein Götti dir immer wieder neue Lösli, Games und andere spannende Dinge
-        zeigen.
+        Das ist deine Götti-App.<br>
+        Hier hast du eine Übersicht über die Götti Bank, die Götti Löslis und kleine Spiele,
+        die dein Gött versucht für dich zu programmieren.
     </p>
 </div>
 
 <div class="bg-gray-200 dark:bg-gray-800 bg-opacity-25 p-6 lg:p-8 border-b border-gray-200 dark:border-gray-700">
 
-    <div class="grid grid-cols-12 gap-4">
-        <div class="col-span-12 sm:col-span-6">
-            <div class="p-4 relative bg-white dark:bg-gray-900 shadow-lg rounded-2xl">
-                <svg class="h-14 w-14  absolute bottom-4 right-3 text-green-400" fill="currentColor"
-                     viewBox="0 0 1920 1920" xmlns="http://www.w3.org/2000/svg">
-                    <g fill-rule="evenodd" clip-rule="evenodd" stroke="none" stroke-width="1">
-                        <path
-                            d="M933.333 368.375C903.878 368.375 880 392.277 880 421.762C880 451.247 903.878 475.15 933.333 475.15C962.788 475.15 986.667 451.247 986.667 421.762C986.667 392.277 962.788 368.375 933.333 368.375Z"/>
-                        <path fill-rule="evenodd" clip-rule="evenodd"
-                              d="M0 213.55H517.333V632.308H624V0H1600V747.424H516.667L234.126 1633.06L337.468 1665.34L596.094 854.199H1920L1729.66 1789.36C1714.51 1865.08 1647.52 1920 1570.48 1920H162.318C72.8265 1920 0 1847.1 0 1757.52V213.55ZM773.333 421.762C773.333 333.307 844.968 261.6 933.333 261.6C1021.7 261.6 1093.33 333.307 1093.33 421.762C1093.33 510.217 1021.7 581.925 933.333 581.925C844.968 581.925 773.333 510.217 773.333 421.762ZM1200 368.375H1466.67V475.15H1200V368.375Z"/>
-                    </g>
-                </svg>
+    <a href="https://ditshej.notion.site/102d731ce5d080a1ad79f909e8228721?v=102d731ce5d080b5b16a000c48e41c1a"
+       target="_blank"
+       class="flex flex-col p-4 bg-white dark:bg-gray-900 shadow-md
+            hover:text-green-500 text-gray-500 dark:text-gray-400 hover:shodow-lg rounded-2xl
+            transition ease-in duration-500 transform hover:scale-105 cursor-pointer">
+        <div class="flex items-center justify-between">
+            <div class="flex items-center mr-auto">
+                <div class="-space-x-5 flex ">
+                    <div class="relative p-1 w-12 h-12 object-cover rounded-2xl
+                            border-2 dark:border-gray-600 dark:bg-gray-900">
+                        <svg class="stroke-indigo-500"
+                             viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M12 3V9M12 3L9.5 5.5M12 3L14.5 5.5M5.82333 9.00037C6.2383 9.36683 6.5 9.90285 6.5 10.5C6.5 11.6046 5.60457 12.5 4.5 12.5C3.90285 12.5 3.36683 12.2383 3.00037 11.8233M5.82333 9.00037C5.94144 9 6.06676 9 6.2 9H8M5.82333 9.00037C4.94852 9.00308 4.46895 9.02593 4.09202 9.21799C3.71569 9.40973 3.40973 9.71569 3.21799 10.092C3.02593 10.469 3.00308 10.9485 3.00037 11.8233M3.00037 11.8233C3 11.9414 3 12.0668 3 12.2V17.8C3 17.9332 3 18.0586 3.00037 18.1767M3.00037 18.1767C3.36683 17.7617 3.90285 17.5 4.5 17.5C5.60457 17.5 6.5 18.3954 6.5 19.5C6.5 20.0971 6.2383 20.6332 5.82333 20.9996M3.00037 18.1767C3.00308 19.0515 3.02593 19.5311 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.46895 20.9741 4.94852 20.9969 5.82333 20.9996M5.82333 20.9996C5.94144 21 6.06676 21 6.2 21H17.8C17.9332 21 18.0586 21 18.1767 20.9996M21 18.1771C20.6335 17.7619 20.0973 17.5 19.5 17.5C18.3954 17.5 17.5 18.3954 17.5 19.5C17.5 20.0971 17.7617 20.6332 18.1767 20.9996M21 18.1771C21.0004 18.0589 21 17.9334 21 17.8V12.2C21 12.0668 21 11.9414 20.9996 11.8233M21 18.1771C20.9973 19.0516 20.974 19.5311 20.782 19.908C20.5903 20.2843 20.2843 20.5903 19.908 20.782C19.5311 20.9741 19.0515 20.9969 18.1767 20.9996M20.9996 11.8233C20.6332 12.2383 20.0971 12.5 19.5 12.5C18.3954 12.5 17.5 11.6046 17.5 10.5C17.5 9.90285 17.7617 9.36683 18.1767 9.00037M20.9996 11.8233C20.9969 10.9485 20.9741 10.469 20.782 10.092C20.5903 9.71569 20.2843 9.40973 19.908 9.21799C19.5311 9.02593 19.0515 9.00308 18.1767 9.00037M18.1767 9.00037C18.0586 9 17.9332 9 17.8 9H16M14 15C14 16.1046 13.1046 17 12 17C10.8954 17 10 16.1046 10 15C10 13.8954 10.8954 13 12 13C13.1046 13 14 13.8954 14 15Z"
+                                stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+                        </svg>
+                    </div>
+                </div>
 
-                <div class="text-2xl text-gray-900 dark:text-gray-100 font-medium leading-8 mt-5">78.75</div>
-                <div class="text-sm text-gray-500 dark:text-gray-400">Franken auf der Götti-Bank</div>
+                <div class="flex flex-col ml-3 min-w-0">
+                    <div class="font-medium leading-none text-gray-900 dark:text-gray-100">Götti Bank</div>
+                    <p class="text-sm text-gray-500 leading-none mt-1 truncate">
+                        Hier kannst du auf einer externen Seite den Verlauf deines Geldes auf der Götti Bank ansehen.
+                    </p>
+                </div>
+            </div>
+            <div class="flex flex-col ml-3 min-w-0">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 ml-2" fill="none" viewBox="0 0 24 24"
+                     stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M9 5l7 7-7 7"></path>
+                </svg>
             </div>
         </div>
-        <div class="col-span-12 sm:col-span-6">
-            <div class="p-4 relative bg-white dark:bg-gray-900 shadow-lg  rounded-2xl">
-                <svg class="h-14 w-14  absolute bottom-4 right-3 text-blue-500 stroke-blue-500" fill="none"
-                     viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M12 3V9M12 3L9.5 5.5M12 3L14.5 5.5M5.82333 9.00037C6.2383 9.36683 6.5 9.90285 6.5 10.5C6.5 11.6046 5.60457 12.5 4.5 12.5C3.90285 12.5 3.36683 12.2383 3.00037 11.8233M5.82333 9.00037C5.94144 9 6.06676 9 6.2 9H8M5.82333 9.00037C4.94852 9.00308 4.46895 9.02593 4.09202 9.21799C3.71569 9.40973 3.40973 9.71569 3.21799 10.092C3.02593 10.469 3.00308 10.9485 3.00037 11.8233M3.00037 11.8233C3 11.9414 3 12.0668 3 12.2V17.8C3 17.9332 3 18.0586 3.00037 18.1767M3.00037 18.1767C3.36683 17.7617 3.90285 17.5 4.5 17.5C5.60457 17.5 6.5 18.3954 6.5 19.5C6.5 20.0971 6.2383 20.6332 5.82333 20.9996M3.00037 18.1767C3.00308 19.0515 3.02593 19.5311 3.21799 19.908C3.40973 20.2843 3.71569 20.5903 4.09202 20.782C4.46895 20.9741 4.94852 20.9969 5.82333 20.9996M5.82333 20.9996C5.94144 21 6.06676 21 6.2 21H17.8C17.9332 21 18.0586 21 18.1767 20.9996M21 18.1771C20.6335 17.7619 20.0973 17.5 19.5 17.5C18.3954 17.5 17.5 18.3954 17.5 19.5C17.5 20.0971 17.7617 20.6332 18.1767 20.9996M21 18.1771C21.0004 18.0589 21 17.9334 21 17.8V12.2C21 12.0668 21 11.9414 20.9996 11.8233M21 18.1771C20.9973 19.0516 20.974 19.5311 20.782 19.908C20.5903 20.2843 20.2843 20.5903 19.908 20.782C19.5311 20.9741 19.0515 20.9969 18.1767 20.9996M20.9996 11.8233C20.6332 12.2383 20.0971 12.5 19.5 12.5C18.3954 12.5 17.5 11.6046 17.5 10.5C17.5 9.90285 17.7617 9.36683 18.1767 9.00037M20.9996 11.8233C20.9969 10.9485 20.9741 10.469 20.782 10.092C20.5903 9.71569 20.2843 9.40973 19.908 9.21799C19.5311 9.02593 19.0515 9.00308 18.1767 9.00037M18.1767 9.00037C18.0586 9 17.9332 9 17.8 9H16M14 15C14 16.1046 13.1046 17 12 17C10.8954 17 10 16.1046 10 15C10 13.8954 10.8954 13 12 13C13.1046 13 14 13.8954 14 15Z"
-                        stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-                </svg>
-                <div class="text-2xl text-gray-900 dark:text-gray-100 font-medium leading-8 mt-5">10.-</div>
-                <div class="text-sm text-gray-500 dark:text-gray-400">Franken bereits einbezahlt im Jahr 2024</div>
-            </div>
-        </div>
-    </div>
-
+    </a>
 
 </div>
 <div class="bg-gray-200 dark:bg-gray-800 bg-opacity-25 p-6 lg:p-8">
@@ -59,12 +64,12 @@
                 <div class="flex items-center mr-auto">
                     <div class="-space-x-5 flex ">
                         <div class="relative p-1 w-12 h-12 object-cover rounded-2xl
-                            border-2 border-gray-600 bg-gray-900">
+                            border-2 dark:border-gray-600 dark:bg-gray-900">
                             <svg class="stroke-indigo-500"
                                  viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg"
                                  stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
-                                <rect height="11.5" width="8.25" y="2.75" x="1.75"/>
-                                <path d="m10 3.75 4.25 2-4.25 7.5"/>
+                                <rect height="11.5" width="8.25" y="2.75" x="1.75" fill="none"/>
+                                <path d="m10 3.75 4.25 2-4.25 7.5" fill="none"/>
                             </svg>
                         </div>
                     </div>
@@ -72,8 +77,7 @@
                     <div class="flex flex-col ml-3 min-w-0">
                         <div class="font-medium leading-none text-gray-900 dark:text-gray-100">Götti Lösli</div>
                         <p class="text-sm text-gray-500 leading-none mt-1 truncate">
-                            Hier gehts zu einer Übersicht zu
-                            allen Götti Lösli
+                            Hier gehts zu einer Übersicht zu allen Götti Lösli
                         </p>
                     </div>
                 </div>
@@ -95,7 +99,7 @@
                 <div class="flex items-center mr-auto">
                     <div class="-space-x-5 flex ">
                         <div class="relative p-1 w-12 h-12 object-cover rounded-2xl
-                            border-2 border-gray-600 bg-gray-900">
+                            border-2 dark:border-gray-600 dark:bg-gray-900">
                             <svg class="fill-indigo-500"
                                 viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                                 <path
