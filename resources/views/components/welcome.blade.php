@@ -18,7 +18,7 @@
     <a href="https://ditshej.notion.site/102d731ce5d080a1ad79f909e8228721?v=102d731ce5d080b5b16a000c48e41c1a"
        target="_blank"
        class="flex flex-col p-4 bg-white dark:bg-gray-900 shadow-md
-            hover:text-green-500 text-gray-500 dark:text-gray-400 hover:shodow-lg rounded-2xl
+            hover:text-indigo-500 text-gray-500 dark:text-gray-400 hover:shodow-lg rounded-2xl
             transition ease-in duration-500 transform hover:scale-105 cursor-pointer">
         <div class="flex items-center justify-between">
             <div class="flex items-center mr-auto">
@@ -58,7 +58,7 @@
 
         <a href="{{ route('godfather-lottery') }}" wire:navigate
            class="flex flex-col p-4 bg-white dark:bg-gray-900 shadow-md
-            hover:text-green-500 text-gray-500 dark:text-gray-400 hover:shodow-lg rounded-2xl
+            hover:text-indigo-500 text-gray-500 dark:text-gray-400 hover:shodow-lg rounded-2xl
             transition ease-in duration-500 transform hover:scale-105 cursor-pointer">
             <div class="flex items-center justify-between">
                 <div class="flex items-center mr-auto">
@@ -93,7 +93,7 @@
 
         <a href="{{ route('games') }}" wire:navigate
            class="flex flex-col p-4 bg-white dark:bg-gray-900 shadow-md
-            hover:text-green-500 text-gray-500 dark:text-gray-400 hover:shodow-lg rounded-2xl
+            hover:text-indigo-500 text-gray-500 dark:text-gray-400 hover:shodow-lg rounded-2xl
             transition ease-in duration-500 transform hover:scale-105 cursor-pointer">
             <div class="flex items-center justify-between">
                 <div class="flex items-center mr-auto">
