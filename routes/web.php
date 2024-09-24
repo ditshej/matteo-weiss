@@ -1,6 +1,12 @@
 <?php
 
+use App\Livewire\Dashboard;
+use App\Livewire\DinoMemory;
+use App\Livewire\Games;
+use App\Livewire\GodfatherLottery;
+use App\Livewire\Welcome;
 use Illuminate\Support\Facades\Route;
+use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,15 +19,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', \App\Livewire\Welcome::class);
+Route::get('/', Welcome::class);
 
 Route::middleware([
     'auth:sanctum',
     config('jetstream.auth_session'),
     'verified',
 ])->group(function () {
-    Route::get('dashboard', \App\Livewire\Dashboard::class)->name('dashboard');
-    Route::get('godfather-lottery', \App\Livewire\GodfatherLottery::class)->name('godfather-lottery');
-    Route::get('games', \App\Livewire\Games::class)->name('games');
-    Route::get('dino-memory', \App\Livewire\DinoMemory::class)->name('games.dino-memory');
+    Route::get('dashboard', Dashboard::class)->name('dashboard');
+    Route::get('godfather-lottery', GodfatherLottery::class)->name('godfather-lottery');
+    Route::get('games', Games::class)->name('games');
+    Route::get('dino-memory', DinoMemory::class)->name('games.dino-memory');
 });
+
+Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
