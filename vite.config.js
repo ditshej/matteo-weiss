@@ -6,7 +6,9 @@ export default defineConfig({
         laravel([
             'resources/css/app.css',
             'resources/css/dinosaur.css',
+            'resources/css/dino-memory.css',
             'resources/js/app.js',
+            'resources/js/dino-memory.js',
         ]),
     ],
 });
