@@ -10,8 +10,9 @@
 
             <div id="just-used-for-development-to-tell-tailwind-to-load-dynamic-styles"
                  class="hidden
-                        from-blue-500 border-blue-500/10 bg-blue-500
                         from-green-500 border-green-500/10 bg-green-500
+                        from-blue-500 border-blue-500/10 bg-blue-500
+                        from-amber-500 border-amber-500/10 bg-amber-500
                         from-red-500 border-red-500/10 bg-red-500
                         from-sky-500 border-sky-500/10 bg-sky-500
                      "></div>
