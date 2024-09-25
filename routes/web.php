@@ -6,7 +6,6 @@ use App\Livewire\Games;
 use App\Livewire\GodfatherLottery;
 use App\Livewire\Welcome;
 use Illuminate\Support\Facades\Route;
-use Laravel\Fortify\Http\Controllers\AuthenticatedSessionController;
 
 /*
 |--------------------------------------------------------------------------
