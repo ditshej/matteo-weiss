@@ -43,7 +43,12 @@
                                 Du kannst das Dino Memory bis zu 10 Mal spielen.
                                 Sobald du mit deinem Ergebnis zufrieden bist,
                                 zeige es Götti und er sagt dir, wie viel du gewonnen hast.<br><br>
-                                Wie viel gewinnst du?
+                                Wie viel gewinnst du?<br><br>
+                                Max. 7 Versuche: 50 Franken<br>
+                                8 Versuche: 40 Franken<br>
+                                9 Versuche: 30 Franken<br>
+                                10 Versuche: 20 Franken<br>
+                                11 Versuche oder mehr: 10 Franken
                             </x-card>
                             <x-card>
                                 <x-slot name="color">
