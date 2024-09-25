@@ -31,5 +31,3 @@ Route::middleware([
     Route::get('games', Games::class)->name('games');
     Route::get('dino-memory', DinoMemory::class)->name('games.dino-memory');
 });
-
-Route::post('/logout', [AuthenticatedSessionController::class, 'destroy'])->name('logout');
