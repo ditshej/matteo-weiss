@@ -52,7 +52,7 @@
                                 Es gab folgende Würfel: W20, W12, W10, W8, W6 und einen W4<br>
                                 Dann habt ihr mit euren Würfel gewürfelt und die Person mit dem höheren Ergebnis hat gewonnen.
                                 Für jede Runde, die du gewonnen hast, hast du 10 Fr erhalten.<br><br>
-                                Du hast dabei ?? Franken gewonnen.
+                                Du hast dabei 40 Franken gewonnen.
                             </x-card>
                             <x-card>
                                 <x-slot name="color">
